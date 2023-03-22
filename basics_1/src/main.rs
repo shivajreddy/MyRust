@@ -2,8 +2,8 @@
 fn main() {
     println!("Hello, world!");
 
-
     // create a vector of 5 characters
+    println!("hello 🦀 world");
 
     // iterate and print the 5 characters
 
