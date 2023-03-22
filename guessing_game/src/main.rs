@@ -1,15 +1,7 @@
-use std::io;
-
 fn main() {
-    println!("Guess the number!");
+    // Testing println!
 
-    println!("Please input your guess..");
+    println!("{}", 3 + 21);
 
-    let mut guess: String = String::new();
-
-    io::stdin()
-        .read_line(&mut guess)
-        .expect("Failed to read line");
-
-    println!("You guess: {guess}");
+    println!("{name} {fname}", fname = "shiva", name = "reddy");
 }
