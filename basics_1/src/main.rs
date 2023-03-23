@@ -6,11 +6,8 @@ fn main() {
     // iterate and remove the characters from the vector
 
     // iterate and add new characters
-    call_me(10);
-}
 
-fn call_me(num: i32) {
-    for i in 0..num {
-        println!("{i}");
-    }
+    let name = "shiva";
+    let size = name.len();
+    println!("{size}");
 }
